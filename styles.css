@@ -4,3 +4,15 @@
     margin-left: 18px;
 	background-color: #993300;
 }
+.orange {
+	height: 126px;
+	background-color: #FF9900;
+	margin-top: 31px;
+}
+.purple{
+	height: 126px;
+	background-color: #FF00FF;
+	border: 7px blue solid;
+	box-shadow: -1px 1px 41px 7px black;
+
+}
