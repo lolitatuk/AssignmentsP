@@ -16,3 +16,10 @@
 	box-shadow: -1px 1px 41px 7px black;
 
 }
+.green {
+	height: 128px;
+	background-color: rgba(00, 255, 00, 0.5);
+	margin-top: -198px;
+    border-radius: 163px;
+    opacity: 0,5;
+}
