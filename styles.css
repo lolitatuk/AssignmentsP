@@ -27,3 +27,12 @@
 	float: left;
 	clear: both;
 }
+.whiteBall{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 46%;
+    margin-left: 29px;
+    position: absolute;
+}

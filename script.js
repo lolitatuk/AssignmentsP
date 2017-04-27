@@ -2,6 +2,7 @@ $(document).ready(function(){
 	initEvents();
 });
 function initEvents(){
+	fall()
 	$(".click").click(startOver)
 }
 function startOver (){
@@ -16,4 +17,16 @@ function reset (){
 					"border-radius": 163
 				},
 			500, startOver )
+}
+function jump (){
+	$(".whiteBall").animate({
+					'top': 0
+				},
+			250, fall)	
+}
+function fall (){
+	$(".whiteBall").animate({
+					'top': 100
+				},
+			250, jump )
 }
