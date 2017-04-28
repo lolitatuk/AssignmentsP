@@ -1,38 +1,4 @@
-.red{
-	height: 250px;
-	margin-top: 32px;
-    margin-left: 18px;
-	background-color: #993300;
-}
-.orange {
-	height: 126px;
-	background-color: #FF9900;
-	margin-top: 31px;
-}
-.purple{
-	height: 126px;
-	background-color: #FF00FF;
-	border: 7px blue solid;
-	box-shadow: -1px 1px 41px 7px black;
-
-}
-.green {
-	height: 128px;
-	background-color: rgba(00, 255, 00, 0.5);
-	margin-top: -198px;
-    border-radius: 163px;
-    opacity: 0,5;
-}
-.click{
-	float: left;
-	clear: both;
-}
-.whiteBall{
-	width: 20px;
-	height: 20px;
-	background-color: white;
-	border: 1px solid black;
-	border-radius: 46%;
-    margin-left: 29px;
-    position: absolute;
-}
+.st0 {
+	fill:none;
+	stroke:#000000;
+  }
