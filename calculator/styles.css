@@ -13,42 +13,47 @@ body {
 	display: flex;
   	align-items: center;
   	justify-content: center;
-  	flex-wrap: wrap;
 }
 
+#totalContainer{
+	height: 85%;
+}
+#mixContainer{
+	display: flex;
+	clear: both;
+	height: 85%;
+}
 #displayContainer{
 	background-color: #cccc99;
 	height: 15%;
-    margin-top: 18px;
 	border: solid 3px white;
     border-style: ridge;
     box-shadow: 0 0 0 4px black;
   }
 #memoryContainer{
     height: 12%;
-    margin-top: 11px;
+    padding-left: 0;
 }
 
 #memoryContainer ul{
 	height: 100%;
 	padding: 0px;
 	display: flex;
+	flex-wrap: wrap;
 }
 #memoryContainer li{
 	background-color: #666666;
-	float: left;
+	height: 100%;
 	list-style-type: none;
 	border-radius: 10px;
 	color: white;
-	height: 96%;
 	flex-basis: 0;
 	flex-grow: 1;
-	margin-right: 8px;
 
 }
 #numberContainer{
-    height: 12%;
-    margin-top: 11px;
+    height: 88%;
+    padding-left: 0;
 }
 break{
 	flex-basis: 100%;
@@ -60,15 +65,36 @@ break{
 	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	padding: 0px;
 }
 #numberContainer li{
 	background-color: #ffffff;
-	float: left;
+	height: 25%;
 	list-style-type: none;
 	border-radius: 10px;
 	color: black;
-	height: 96%;
-	margin-right: 8px;
 	flex-basis: 0;
 	flex-grow: 1;
+}
+#operationContainer{
+	height: 100%;
+    margin-left: auto;
+    padding-right: 0;
+}
+#operationContainer ul{
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+	order: 3;
+}
+#operationContainer li{
+	background-color: red;
+	height: 20%;
+	list-style-type: none;
+	border-radius: 10px;
+	color: black;
+	flex-basis: 0;
+	flex-grow: 1;
+
 }
